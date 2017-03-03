@@ -1,0 +1,180 @@
+@charset "utf-8";
+html{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/FS-Hero.jpg);
+	background-size: cover;
+}
+
+body{
+	min-height: 100%;
+    background-color: transparent !important;
+
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+#top-login {
+	margin-right: 10px;
+}
+#login button  {
+	margin-left: -13px;
+}
+h1 {
+	text-align: center;
+	padding-top: 35px;
+	color: #FFFFFF;
+	font-size: 4em;
+}
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: #FFFFFF;
+}
+.Play Button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+.img-center {
+	margin:0 auto;
+}
+
+
+#subjects {
+	margin-top: 138px;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+}
+.subject.txt {
+
+}
+#subject-box {
+	height: 250px;
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 10px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2px;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+#subject-box1 {
+	height: 250px;
+	padding-top: 25px;
+	background-color: hsla(50,100%,66%,0.70);
+	background-image: url(../images/MATHS-BG.svg);
+	background-repeat: no-repeat;
+	background-position: center 66%;
+	background-size: contain;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	padding-top: 25px;
+}
+#subject-box2 {
+	height: 250px;
+	padding-top: 25px;
+	background-color: hsla(165,38%,52%,0.70);
+	background-image: url(../images/BIOLOGY-BG.svg);
+	background-repeat: no-repeat;
+	background-position: center 66%;
+	background-size: contain;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+#subject-box3 {
+	height: 250px;
+	padding-top: 25px;
+	background-color: hsla(352,100%,66%,0.70);
+	background-image: url(../images/CHEMISTRY-BG.svg);
+	background-repeat: no-repeat;
+	background-position: center 66%;
+	background-size: contain;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+#subject-box4 {
+	height: 250px;
+	padding-top: 25px;
+	background-color: hsla(191,50%,64%,0.70);
+	background-image: url(../images/PHYSICS-BG.svg);
+	background-repeat: no-repeat;
+	background-position: center 66%;
+	background-size: contain;
+	-webkit-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+.Footer {
+	position : absolute;
+	bottom : 0;
+	height : 40px;
+	width: 100%;
+	margin-top : 40px;
+	background-color: #221D34;
+	color: #555555;
+	text-align: center;
+	padding-top: 9px;
+}
+
+
+@media screen{
+html {
+	height: 506px;
+}
+
+h1 {
+	padding-top: 0px;
+	font-size: 4em;
+}	
+.Footer {
+	position : fixed;
+	bottom : 0;
+	height : 40px;
+	width: 100%;
+	margin-top : 40px;
+	background-color: #221D34;
+	color: #555555;
+	text-align: center;
+	padding-top: 9px;
+}	
+	
+@media (max-width:479px){
+	
+}
+html {
+	height: 470px;
+}
+
+#subject-box1:hover {
+	background-color: #FFE250;
+	background-position: center 75%;
+}
+#subject-box2:hover {
+	background-color: #56B39C;
+	background-position: center 75%;
+}
+#subject-box3:hover {
+	background-color: #FF5369;
+	background-position: center 75%;
+}
+#subject-box4:hover {
+	background-color: #76C0D1;
+	background-position: center 75%;
+}
