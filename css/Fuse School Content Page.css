@@ -29,27 +29,7 @@ body { padding-top: 50px; }
     .pb-video-container {
         padding-top: 20px;
     }
-.label-warning {
-	border: 0 none;
-	border-radius: 0;
-	background-color: #FFFFFF;
-	text-shadow: 0px 0px;
-}
 
-
-    .pb-video {
-        border: 1px solid #e6e6e6;
-        padding: 5px;
-    }
-
-
-    .pb-row {
-	margin-bottom: 10px;
-	width: 88%;
-	margin-left: auto;
-	margin-top: 15px;
-	margin-right: auto;
-    }
 h4 {
 	display: inline;
 	vertical-align: middle;
@@ -59,14 +39,87 @@ li {
 	text-align: justify;
 
 }
+.subject-line {
+	border-bottom: 1px solid hsla(0,0%,0%,1.00);
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.block.head {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-top: 15px;
+}
+.blk-btn {
+	margin-top: 10px;
+}
+.Maths.Container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+.thumb-title {
+	font-size: 1.3em;
+	margin-top: 7px;
+}
+.thumb-discription {
+	margin-left: 29px;
+	margin-bottom: 10px;
+	word-spacing: 35px;
+	text-shadow: 0px 0px #585858;
+	margin-top: -5px;
+}
+
+.comment {
+	margin-left: 33px;
+
+}
+.views {
+}
+
+.like {
+	margin-left: 31px;
+
+}
+.community-link {
+	background-color: #BDBDBD;
+	margin-bottom: 15px;
+	height: 30px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	font-size: 1.3em;
+}
+.content-picker-top {
+	margin-top: -65px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media (min-width: 992px) { 
 	#myCarousel {padding-right:33.3333%;}
+.btn-blk {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+
 	#myCarousel .carousel-controls {display:none;} 	
 }
 @media (max-width: 991px) { 
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;} 
+}
+.btn-blk {
 }
