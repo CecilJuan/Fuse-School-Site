@@ -2,7 +2,7 @@
 
 body { padding-top: 50px; }
 
-#myCarousel .carousel-caption {
+#Rec-tab .carousel-caption {
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -12,23 +12,43 @@ body { padding-top: 50px; }
 	text-shadow: none;
 }
 
-#myCarousel .list-group {
+#Rec-tab .list-group {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
-#myCarousel .list-group-item {
+#Rec-tab .list-group-item {
 	border-radius: 0px;
 	cursor: pointer;
 	height: 101px;
 }
-#myCarousel .list-group .active {
+#Rec-tab .list-group .active {
 	background-color:#eee;	
 }
 
-    .pb-video-container {
-        padding-top: 20px;
-    }
+#Con-tab .carousel-caption {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: left;
+	padding: 10px;
+	background: rgba(0,0,0,0.6);
+	text-shadow: none;
+}
+
+#Con-tab .list-group {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#Con-tab .list-group-item {
+	border-radius: 0px;
+	cursor: pointer;
+	height: 101px;
+}
+#Con-tab .list-group .active {
+	background-color:#eee;
+}
 
 h4 {
 	display: inline;
@@ -108,18 +128,18 @@ li {
 
 
 @media (min-width: 992px) { 
-	#myCarousel {padding-right:33.3333%;}
+	#Rec-tab {padding-right:33.3333%;}
 .btn-blk {
 	background-color: #000000;
 	color: #FFFFFF;
 	margin-left: 10px;
 }
 
-	#myCarousel .carousel-controls {display:none;} 	
+	#Rec-tab .carousel-controls {display:none;} 	
 }
 @media (max-width: 991px) { 
 	.carousel-caption p,
-	#myCarousel .list-group {display:none;} 
+	#Rec-tab .list-group {display:none;} 
 }
 .btn-blk {
 }
