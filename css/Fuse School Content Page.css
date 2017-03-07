@@ -26,6 +26,9 @@ body { padding-top: 50px; }
 	background-color:#eee;	
 }
 
+#Con-tab {
+	display: none
+}
 #Con-tab .carousel-caption {
 	left: 0;
 	right: 0;
@@ -34,6 +37,7 @@ body { padding-top: 50px; }
 	padding: 10px;
 	background: rgba(0,0,0,0.6);
 	text-shadow: none;
+	width: 760px;
 }
 
 #Con-tab .list-group {
@@ -47,9 +51,12 @@ body { padding-top: 50px; }
 	height: 101px;
 }
 #Con-tab .list-group .active {
-	background-color:#eee;
+	background-color:#eee;	
 }
 
+#Con-tab .carousel-controls {
+	display: none
+}
 h4 {
 	display: inline;
 	vertical-align: middle;
