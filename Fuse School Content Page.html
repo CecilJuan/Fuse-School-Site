@@ -9,12 +9,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/Fuse School Content Page.css" rel="stylesheet" type="text/css">
 	
-<script>
-$('#btn1').on('click', function(){    
-    $('#Rec-tab').show();
-    $('#Con-tab').hide();
-});
-</script>
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -22,7 +17,17 @@ $('#btn1').on('click', function(){
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   </head>
-  <body>
+  <body><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  
+  	<script>
+  	$(document).ready(function(){
+		$('#btn1').on('click', function(){
+			console.log('hello');
+   			$('#Rec-tab').show();
+    		$('#Con-tab').hide();
+		});
+	});
+	</script>
   
 <div class="container">
  
