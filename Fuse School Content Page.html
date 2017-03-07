@@ -10,15 +10,10 @@
 	<link href="css/Fuse School Content Page.css" rel="stylesheet" type="text/css">
 	
 <script>
-$('button').click(function(){    
-  if(this.id == 'btn1'){
+$('#btn1').on('click', function(){    
     $('.Rec-tab').show();
     $('.Con-tab').hide();
-  }else{
-    $('.Rec-tab').hide();
-    $('.Con-tab').show();
-  }
-})
+});
 </script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
