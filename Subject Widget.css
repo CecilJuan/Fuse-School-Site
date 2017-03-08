@@ -2,6 +2,9 @@
 
 .Chemistry-Container, .Biology-Container, .Physics-Container, .English-Container, .IT-Container, .Functional-Math-Container, .Business-Container {
 	display: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #000000;
 }
 
 h4 {
@@ -26,11 +29,10 @@ li {
 .blk-btn {
 	margin-top: 10px;
 }
-.Maths.Container {
+.Maths-Container {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
+	border: 1px solid #000000;
 }
 .thumb-title {
 	font-size: 1.3em;
@@ -58,10 +60,12 @@ li {
 .community-link {
 	background-color: #BDBDBD;
 	margin-bottom: 15px;
+	margin-top: 30px;
 	height: 30px;
 	color: #FFFFFF;
 	padding-top: 2px;
 	font-size: 1.3em;
+
 }
 .content-picker-top {
 	margin-top: -65px;
