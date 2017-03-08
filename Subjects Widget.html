@@ -16,7 +16,7 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		
-<script>
+<script language="javascript">
   	$(document).ready(function(){
 		$('#Maths').on('click', function(){
    			$('.Maths-Container').show();
@@ -98,6 +98,8 @@
     		$('.Functional Math').hide();
     		$('.Business').show();
 		});
+		$('.fuse-subjects').on('click', function(){};
+	});							   
 });		
 </script>
  		
@@ -111,14 +113,14 @@
 	  <h2>Your Subjects</h2>
 	</div>
 	<div class="col-lg-12">
-	  <button type="button" class="btn btn-default" id="Maths">Maths</button>
-	  <button type="button" class="btn btn-default" id="Chemistry">Chemistry</button>
-	  <button type="button" class="btn btn-default" id="Biology">Biology</button>
-	  <button type="button" class="btn btn-default" id="Physics">Physics</button>
-	  <button type="button" class="btn btn-default" id="English">English</button>
-	  <button type="button" class="btn btn-default" id="IT">IT</button>
-	  <button type="button" class="btn btn-default" id="Functional Math">Functional Math</button>
-	  <button type="button" class="btn btn-default" id="Business">Business</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Maths">Maths</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Chemistry">Chemistry</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Biology">Biology</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Physics">Physics</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="English">English</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="IT">IT</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Functional Math">Functional Math</button>
+	  <button type="button" class="btn btn-default fuse-subjects" id="Business">Business</button>
 	  <div class="btn-group">
 	  </div>
 	</div>
@@ -129,9 +131,10 @@
         <button type="button" class="btn btn-default pull-right btn-blk">See All   <span class="glyphicon glyphicon-expand"></span></button></div>
         </div>
         
+<div class="container-divs">    
 <!-- START OF MATH CONTAINER -->
 
-    <div class="col-lg-12 col-md-12 col-xs-12 Maths-Container">
+    <div class="col-lg-12 col-md-12 col-xs-12" id="fuse-math">
 		  <div class="col-lg-3 col-md-6">
 		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
 		      <p class="thumb-title">Video Title</p>
@@ -214,7 +217,7 @@
         
 <!-- START OF CHEMISTRY CONTAINER -->
 
-    <div class="col-lg-12 col-md-12 col-xs-12 Chemistry-Container">
+    <div class="col-lg-12 col-md-12 col-xs-12" id="fuse-chemistry">
 		  <div class="col-lg-3 col-md-6">
 		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
 		      <p class="thumb-title">Video Title 2</p>
@@ -297,7 +300,7 @@
   
 <!-- START OF BIO CONTAINER -->
 
-    <div class="col-lg-12 col-md-12 col-xs-12 Biology-Container">
+    <div class="col-lg-12 col-md-12 col-xs-12" id="fuse-biology">
 		  <div class="col-lg-3 col-md-6">
 		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
 		      <p class="thumb-title">Video Title</p>
@@ -378,7 +381,7 @@
   
 <!-- START OF PHYSICS CONTAINER -->
 
-    <div class="col-lg-12 col-md-12 col-xs-12 Physics-Container">
+    <div class="col-lg-12 col-md-12 col-xs-12" id="fuse-physics">
 		  <div class="col-lg-3 col-md-6">
 		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
 		      <p class="thumb-title">Video Title</p>
@@ -456,340 +459,8 @@
      </div>
 	</div>
 	<!-- END OF PHYSICS CONTAINER -->      
-  
-  
-<!-- START OF IT CONTAINER -->
-
-    <div class="col-lg-12 col-md-12 col-xs-12 English-Container">
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-	  </div>      
-	<div class="col-lg-12 col-md-12 col-xs-12 community-link text-center">
-    Go to Maths Community <span class="glyphicon glyphicon-expand"></span>
-     </div>
-	</div>
-	<!-- END OF ENGLISH CONTAINER -->
-	
-	
-	
-<!-- START OF PHYSICS CONTAINER -->
-
-    <div class="col-lg-12 col-md-12 col-xs-12 IT-Container">
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-	  </div>      
-	<div class="col-lg-12 col-md-12 col-xs-12 community-link text-center">
-    Go to Maths Community <span class="glyphicon glyphicon-expand"></span>
-     </div>
-	</div>
-	<!-- END OF IT CONTAINER -->      	
-	
-	
-	
-<!-- START OF  BUSINESS CONTAINER -->
-
-    <div class="col-lg-12 col-md-12 col-xs-12 Functional-Math-Container">
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-	  </div>      
-	<div class="col-lg-12 col-md-12 col-xs-12 community-link text-center">
-    Go to Maths Community <span class="glyphicon glyphicon-expand"></span>
-     </div>
-	</div>
-	<!-- END OF FUNCTIONAL MATH CONTAINER -->
-	
-	   	
-<!-- START OF BUSINESS CONTAINER -->
-
-    <div class="col-lg-12 col-md-12 col-xs-12 Business-Container">
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-			  <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-		  </div>
-		  <div class="col-lg-3 col-md-6">
-		  <img src="images/Vid-Thumbnail.png" alt="Placeholder image" class="img-responsive center-block">
-		      <p class="thumb-title">Video Title</p>
-			<div class="thumb-discription">
-			 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">200</span>
-			 <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">15</span>
-			 <span class="glyphicon glyphicon-comment" aria-hidden="true">6</span>
-			</div>
-	  </div>      
-	<div class="col-lg-12 col-md-12 col-xs-12 community-link text-center">
-    Go to Maths Community <span class="glyphicon glyphicon-expand"></span>
-     </div>
-	</div>
-	<!-- END OF BUSINESS CONTAINER -->
-	
 		
-				
-	
+  </div> <!--end of -->	
  </div>  
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
