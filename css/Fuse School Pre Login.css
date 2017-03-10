@@ -2,8 +2,9 @@
 html{
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url(../images/FS-Hero.jpg);
+	background-image: url(../images/FS-Hero.svg);
 	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -20,6 +21,8 @@ body{
 
 #top-login {
 	margin-right: 10px;
+	margin-top: 10px;
+	top: 14px;
 }
 #login button  {
 	margin-left: -13px;
@@ -29,14 +32,17 @@ h1 {
 	padding-top: 35px;
 	color: #FFFFFF;
 	font-size: 4em;
+	font-family: 'Open Sans', sans-serif;
 }
 h3 {
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h4 {
 	text-align: center;
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
 }
 .Play Button {
 	margin-left: auto;
@@ -63,6 +69,7 @@ h4 {
 	font-size: 2em;
 	text-align: center;
 	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
 	color: #FFFFFF;
 	font-style: normal;
 	font-weight: 400;
