@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body { padding-top: 50px; }
+
 
 #Rec-tab .carousel-caption {
 	left: 0;
@@ -10,24 +10,31 @@ body { padding-top: 50px; }
 	padding: 10px;
 	background: rgba(0,0,0,0.6);
 	text-shadow: none;
+	width: 745px;
 }
+.carousel-inner .item.active #vid-thumb {
+	width: 745px;
+}
+
 
 #Rec-tab .list-group {
 	position: absolute;
 	top: 0;
 	right: 0;
+
 }
 #Rec-tab .list-group-item {
-	border-radius: 0px;
 	cursor: pointer;
-	height: 101px;
+	height: 102px;
+	width: 400px;
+	margin-left: -15px;
 }
 #Rec-tab .list-group .active {
-	background-color:#eee;	
+	background-color: #eee;
 }
 
 #Con-tab {
-	display: none
+	display: none;
 }
 #Con-tab .carousel-caption {
 	left: 0;
@@ -37,7 +44,7 @@ body { padding-top: 50px; }
 	padding: 10px;
 	background: rgba(0,0,0,0.6);
 	text-shadow: none;
-	width: 760px;
+	width: 745px;
 }
 
 #Con-tab .list-group {
@@ -48,7 +55,9 @@ body { padding-top: 50px; }
 #Con-tab .list-group-item {
 	border-radius: 0px;
 	cursor: pointer;
-	height: 101px;
+	height: 99px;
+	width: 400px;
+	margin-left: -15px;
 }
 #Con-tab .list-group .active {
 	background-color:#eee;	
@@ -66,87 +75,13 @@ li {
 	text-align: justify;
 
 }
-.subject-line {
-	border-bottom: 1px solid hsla(0,0%,0%,1.00);
-	margin-bottom: 15px;
-	margin-top: 15px;
+.carousel-control {
+	display: none;
 }
-.block.head {
-	background-color: #000000;
-	color: #FFFFFF;
-	margin-top: 15px;
+.item .carousel-caption p {
+	width: 500px;
+	margin-left: 20px;
 }
-.blk-btn {
-	margin-top: 10px;
-}
-.Maths.Container {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
-}
-.thumb-title {
-	font-size: 1.3em;
-	margin-top: 7px;
-}
-.thumb-discription {
-	margin-left: 29px;
-	margin-bottom: 10px;
-	word-spacing: 35px;
-	text-shadow: 0px 0px #585858;
-	margin-top: -5px;
-}
+#vid-thumb {
 
-.comment {
-	margin-left: 33px;
-
-}
-.views {
-}
-
-.like {
-	margin-left: 31px;
-
-}
-.community-link {
-	background-color: #BDBDBD;
-	margin-bottom: 15px;
-	height: 30px;
-	color: #FFFFFF;
-	padding-top: 2px;
-	font-size: 1.3em;
-}
-.content-picker-top {
-	margin-top: -65px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 992px) { 
-	#Rec-tab {padding-right:33.3333%;}
-.btn-blk {
-	background-color: #000000;
-	color: #FFFFFF;
-	margin-left: 10px;
-}
-
-	#Rec-tab .carousel-controls {display:none;} 	
-}
-@media (max-width: 991px) { 
-	.carousel-caption p,
-	#Rec-tab .list-group {display:none;} 
-}
-.btn-blk {
 }
