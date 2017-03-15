@@ -15,7 +15,7 @@ $(document).ready(function(){
     
 	var clickEvent = false;
 	$('#Rec-tab').carousel({
-		interval:   4000	
+		interval:   6000	
 	}).on('click', '.list-group li', function() {
 			clickEvent = true;
 			$('.list-group li').removeClass('active');
@@ -34,27 +34,17 @@ $(document).ready(function(){
 	});
 });
 </script> 	
-<script>
-  	$(document).ready(function(){
-		$('#btn1').on('click', function(){
-   			$('#Rec-tab').show();
-    		$('#Con-tab').hide();
-         });
-		$('#btn2').on('click', function(){
-   			$('#Con-tab').show();
-    		$('#Rec-tab').hide();		
-		});
-	});
-</script>
 
   </head>
   <body>
 
   
 <div class="container">
- 
-  <button type="button" class="btn btn-lg btn-default" id="btn1">Reccomended</button>
-  <button type="button" class="btn btn-lg btn-default" id="btn2">Continue watching</button>
+ <div class="row">
+	 <div class="col-lg-12"><h1>Recommended Videos</h1></div>
+ </div>
+<!-- <button type="button" class="btn btn-lg btn-default" id="btn1">Reccomended</button>
+  <button type="button" class="btn btn-lg btn-default" id="btn2">Continue watching</button>-->
   
   <!-- RECCOMENDED TAB BEGINS -->
 
@@ -64,7 +54,7 @@ $(document).ready(function(){
     <div class="carousel-inner">
       
         <div class="item active">
-          <img src="http://placehold.it/760x400/cccccc/ffffff" id="vid-thumb">
+          <img src="http://placehold.it/700x400/cccccc/ffffff">
            <div class="carousel-caption">
             <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
@@ -72,141 +62,75 @@ $(document).ready(function(){
         </div><!-- End Item -->
  
          <div class="item">
-          <img src="http://placehold.it/760x400/999999/cccccc" id="vid-thumb">
+          <img src="http://placehold.it/700x400/999999/cccccc">
            <div class="carousel-caption">
-            <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4>
+            <h4><a href="#">Video 1</a></h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
           </div>
         </div><!-- End Item -->
         
         <div class="item">
-          <img src="http://placehold.it/760x400/dddddd/333333" id="vid-thumb">
+          <img src="http://placehold.it/700x400/dddddd/333333">
            <div class="carousel-caption">
-            <h4><a href="#">tempor invidunt ut labore et dolore</a></h4>
+            <h4><a href="#">Video 2</a></h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
           </div>
         </div><!-- End Item -->
         
         <div class="item">
-          <img src="http://placehold.it/760x400/999999/cccccc" id="vid-thumb">
+          <img src="http://placehold.it/700x400/999999/cccccc">
            <div class="carousel-caption">
-            <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4>
+            <h4><a href="#">Video 3</a></h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
           </div>
         </div><!-- End Item -->
 
         <div class="item">
-          <img src="http://placehold.it/760x400/dddddd/333333" id="vid-thumb">
+          <img src="http://placehold.it/700x400/dddddd/333333">
            <div class="carousel-caption">
-            <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4>
+            <h4><a href="#">Video 4</a></h4>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
           </div>
-        </div><!-- End Item -->
+        </div>
+
+        <div class="item">
+          <img src="http://placehold.it/700x400/dddddd/333333">
+           <div class="carousel-caption">
+            <h4><a href="#">Video 5</a></h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
+          </div>
+        </div>
+               
+               <!-- End Item -->
                 
     </div><!-- End Carousel Inner -->
 
 
     <ul class="list-group col-sm-4">
       
-      <li data-target="#Rec-tab" data-slide-to="1" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
+      <li data-target="#Rec-tab" data-slide-to="1" class="list-group-item"><img src="http://placehold.it/70x50/999999/cccccc">
         <h4>Video 1</h4>
       </li>
-      <li data-target="#Rec-tab" data-slide-to="2" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px"><h4>tempor invidunt ut labore et dolore</h4></li>
-      <li data-target="#Rec-tab" data-slide-to="3" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-        <h4>magna aliquyam erat, sed diam volu</h4>
+      <li data-target="#Rec-tab" data-slide-to="2" class="list-group-item"><img src="http://placehold.it/70x50/999999/cccccc">
+      <h4>Video 2</h4>
       </li>
-      <li data-target="#Rec-tab" data-slide-to="4" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-        <h4>tempor invidunt ut labore et dolore </h4>
+      <li data-target="#Rec-tab" data-slide-to="3" class="list-group-item"><img src="http://placehold.it/70x50/999999/cccccc">
+        <h4>Video 3</h4>
       </li>
-    </ul>
-
-
-
-
+      <li data-target="#Rec-tab" data-slide-to="4" class="list-group-item"><img src="http://placehold.it/70x50/999999/cccccc">
+        <h4>Video 4</h4>
+      </li>
+      <li data-target="#Rec-tab" data-slide-to="5" class="list-group-item"><img src="http://placehold.it/70x50/999999/cccccc">
+        <h4>Video 5</h4>
+      </li>
+   </ul>
+	<div></div>
   </div>
   
     <!-- RECCOMENDED TAB ENDS -->
 
 
-  <!-- CONTINUE TAB BEGINS -->
-
-<div id="Con-tab" class="carousel slide" data-ride="carousel">     
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      
-        <div class="item active">
-          <img src="http://placehold.it/760x400/cccccc/ffffff">
-           <div class="carousel-caption">
-            <h4><a href="#">Lorem ipsum dolor sit amet consetetur sadipscing</a></h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
  
-         <div class="item">
-          <img src="http://placehold.it/760x400/999999/cccccc" class="img-responsive">
-           <div class="carousel-caption">
-            <h4><a href="#">consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
-        
-        <div class="item">
-          <img src="http://placehold.it/760x400/dddddd/333333" class="img-responsive">
-           <div class="carousel-caption">
-            <h4><a href="#">tempor invidunt ut labore et dolore</a></h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
-        
-        <div class="item">
-          <img src="http://placehold.it/760x400/999999/cccccc" class="img-responsive">
-           <div class="carousel-caption">
-            <h4><a href="#">magna aliquyam erat, sed diam voluptua</a></h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
-
-        <div class="item">
-          <img src="http://placehold.it/760x400/dddddd/333333" class="img-responsive">
-           <div class="carousel-caption">
-            <h4><a href="#">tempor invidunt ut labore et dolore magna aliquyam erat</a></h4>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. <a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Bootstrap Carousel Collection</a></p>
-          </div>
-        </div><!-- End Item -->
-                
-    </div><!-- End Carousel Inner -->
-
-
-    <ul class="list-group col-sm-4">
-      
-      <li data-target="#Con-tab" data-slide-to="1" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-        <h4>Video 2</h4>
-      </li>
-      <li data-target="#Con-tab" data-slide-to="2" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-      <h4>tempor invidunt ut labore et dolore</h4></li>
-      <li data-target="#Con-tab" data-slide-to="3" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-        <h4>magna aliquyam erat, sed diam volu</h4>
-      </li>
-      <li data-target="#Con-tab" data-slide-to="4" class="list-group-item"><img src="http://placehold.it/760x400/999999/cccccc" width="70px" height="50px">
-        <h4>tempor invidunt ut labore et dolore </h4>
-      </li>
-    </ul>
-
-      <!-- Controls -->
-      <div class="carousel-controls">
-          <a class="left carousel-control" href="#Con-tab" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#Con-tab" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-      </div>
-
-
-  </div>
-  
-    <!-- CONTINUE TAB ENDS -->
-
       
       
   <!-- Video Carousel --> 
@@ -215,10 +139,11 @@ $(document).ready(function(){
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Latest compiled and minified CSS -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
 <!-- Latest compiled and minified JavaScript -->
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -10,12 +10,8 @@
 	padding: 10px;
 	background: rgba(0,0,0,0.6);
 	text-shadow: none;
-	width: 745px;
+	width: 700px;
 }
-.carousel-inner .item.active #vid-thumb {
-	width: 745px;
-}
-
 
 #Rec-tab .list-group {
 	position: absolute;
@@ -23,65 +19,33 @@
 	right: 0;
 
 }
+
 #Rec-tab .list-group-item {
 	cursor: pointer;
-	height: 102px;
-	width: 400px;
-	margin-left: -15px;
+	height: 81px;
+	width: 350px;
+	margin-left: 29px;
 }
+
 #Rec-tab .list-group .active {
 	background-color: #eee;
 }
 
-#Con-tab {
-	display: none;
-}
-#Con-tab .carousel-caption {
-	left: 0;
-	right: 0;
-	bottom: 0;
-	text-align: left;
-	padding: 10px;
-	background: rgba(0,0,0,0.6);
-	text-shadow: none;
-	width: 745px;
-}
-
-#Con-tab .list-group {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-#Con-tab .list-group-item {
-	border-radius: 0px;
-	cursor: pointer;
-	height: 99px;
-	width: 400px;
-	margin-left: -15px;
-}
-#Con-tab .list-group .active {
-	background-color:#eee;	
-}
-
-#Con-tab .carousel-controls {
-	display: none
-}
 h4 {
 	display: inline;
 	vertical-align: middle;
 	margin-left: 17px;
 }
+
 li {
 	text-align: justify;
-
 }
+
 .carousel-control {
 	display: none;
 }
-.item .carousel-caption p {
-	width: 500px;
-	margin-left: 20px;
-}
-#vid-thumb {
 
+.item .carousel-caption p {
+	width: 610px;
+	margin-left: 20px;
 }

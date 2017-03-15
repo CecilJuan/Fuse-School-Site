@@ -8,7 +8,7 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="Subject Widget.css" rel="stylesheet" type="text/css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -23,84 +23,27 @@
     		$('.Chemistry-Container').hide();
     		$('.Biology-Container').hide();
     		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
          });
 		$('#Chemistry').on('click', function(){
    			$('.Maths-Container').hide();
     		$('.Chemistry-Container').show();
     		$('.Biology-Container').hide();
     		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
 		});
 		$('#Biology').on('click', function(){
    			$('.Maths-Container').hide();
     		$('.Chemistry-Container').hide();
     		$('.Biology-Container').show();
     		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
 		});
 		$('#Physics').on('click', function(){
    			$('.Maths-Container').hide();
     		$('.Chemistry-Container').hide();
     		$('.Biology-Container').hide();
     		$('.Physics-Container').show();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
 		});
-		$('#English').on('click', function(){
-   			$('.Maths-Container').hide();
-    		$('.Chemistry-Container').hide();
-    		$('.Biology-Container').hide();
-    		$('.Physics-Container').hide();
-    		$('.English-Container').show();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
-		});
-		$('#IT').on('click', function(){
-   			$('.Maths-Container').hide();
-    		$('.Chemistry-Container').hide();
-    		$('.Biology-Container').hide();
-    		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').show();
-    		$('.Functional Math').hide();
-    		$('.Business').hide();
-		});
-		$('#Functional Math').on('click', function(){
-   			$('.Maths-Container').hide();
-    		$('.Chemistry-Container').hide();
-    		$('.Biology-Container').hide();
-    		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').show();
-    		$('.Business').hide();
-		});
-		$('#Business').on('click', function(){
-   			$('.Maths-Container').hide();
-    		$('.Chemistry-Container').hide();
-    		$('.Biology-Container').hide();
-    		$('.Physics-Container').hide();
-    		$('.English-Container').hide();
-    		$('.IT-Container').hide();
-    		$('.Functional Math').hide();
-    		$('.Business').show();
-		});
-		$('.fuse-subjects').on('click', function(){};
+		
 	});							   
-});		
 </script>
  		
   </head>
